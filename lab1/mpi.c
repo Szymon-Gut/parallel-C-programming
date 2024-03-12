@@ -35,9 +35,7 @@ int main(int argc,char **argv) {
     if (inputArgument % mine == 0){
       checker += 1;
       break;
-    } else {
-      checker += 0;
-    }
+    } 
     mine += nproc;
   }
 
